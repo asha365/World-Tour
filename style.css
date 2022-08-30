@@ -1,0 +1,26 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    background-color: rgb(217, 228, 224);
+}
+.country{
+    border: 1px solid violet;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    background-color: rgb(230, 202, 134);
+}
+.country-name{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
+.country-city{
+    font-size: 30px;
+    color: rgb(17, 19, 17);
+}
+#country-details img{
+    width:300px;
+}
